@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+.hero-title{
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 40px;
+}
+.title-highlight{
+  color: blueviolet;
+}
+
+
+.input-container{
+  margin: auto;
+  width: 60%;
+  background-color: #DBEAFE;
+  padding: 20px;
+}
+
+.input-email{
+  width: 75%;
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.input-ps{
+  width: 75%;
+  display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.submit-button{
+  background-color: #D97706;
+  padding: 10px 30px 10px 30px;
+  color: white;;
+  border: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.submit-button:hover{
+  background-color: blue;
+}
+.please-login{
+  font-size: 25px;
+}
+
+/* bank inside style */
+.main-container{
+  margin: auto;
+  width: 75%;
+}
+.section-container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 12px;
+  color: white;
+}
+.card-container h4{
+  margin-bottom: 8px;
+}
+.card-1{
+  background-color: #FACC15;
+  border-radius: 5px;
+  padding: 20px;
+  
+}
+.card-2{
+  background-color: #F87171;
+  border-radius: 5px;
+  padding: 20px;
+}
+.card-3{
+  background-color: #60A5FA;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Deposit and withdraw styles  */
+.input-field-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+}
+.deposit-field-container{
+  background-color:#A78BFA ;
+  padding: 20px;
+  border-radius: 5px;
+}
+.withdraw-field-container{
+  background-color:#FACC15 ;
+  padding: 20px;
+  border-radius: 5px;
+}
+.input-filed-content{
+  display: block;
+  width: 75%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.input-field-btn{
+  background-color: #0303fd;
+  padding: 10px 30px 10px 30px;
+  color: white;;
+  border: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.input-field-btn:hover{
+  background: rgb(149, 149, 241);
+}
+.input-field-title{
+  color: white;
+}
+
+.deposit-withdraw-section{
+  margin-bottom: 30px;
+}
+
+.footer-text{
+  font-weight: 200;
+  text-align: center;
+  color: lightgrey;
+}
+/* media query */
+
+@media screen and (max-width: 672px) {
+  .card-container,.input-field-container{
+    grid-template-columns: 100%;
+  }
+  .hero-title{
+    font-size: 45px;
+  }
+}

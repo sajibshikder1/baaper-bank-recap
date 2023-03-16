@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baap Er Bank Inside</title>
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="hero-title">Functional <span class="title-highlight">Baap-Er-Bank</span></h1>
+  </header>
+  <main class="main-container">
+    <!-- Balance Transaction -->
+    <section class="section-container">
+      <div class="card-container">
+        <div class="card-1">
+          <h4>Deposit</h4>
+          <h2>$<span id="deposit-total">00</span></h2>
+        </div>
+        <div class="card-2">
+          <h4>Withdraw</h4>
+          <h2>$<span id="withdraw-total">00</span></h2>
+        </div>
+        <div class="card-3">
+          <h4>Balance</h4>
+          <h2>$<span id="balance-total">1240</span></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- balance deposit and withdraw -->
+    <section class="deposit-withdraw-section">
+      <div class="input-field-container">
+        <div class="deposit-field-container">
+          <h2 class="input-field-title">Your Deposit</h2>
+          <input id="deposit-field" class="input-filed-content" type="text" placeholder="$ Amount you want to deposit">
+
+          <button id="btn-deposit" class="input-field-btn">Deposit</button>
+        </div>
+
+        <div class="withdraw-field-container">
+          <h2 class="input-field-title">Your Withdraw</h2>
+          <input id="withdraw-field" class="input-filed-content" type="text" placeholder="$ Amount you want to deposit">
+
+          <button id="btn-withdraw" class="input-field-btn">Withdraw</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="footer-text">Developed by Sajib Shikder </p>
+    </footer>
+  </main>
+
+  <script src="js/utilities.js"></script>
+  <script src="js/deposit.js"></script>
+  <script src="js/withdraw.js"></script>
+</body>
+</html>
